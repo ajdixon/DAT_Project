@@ -54,5 +54,5 @@ CREATE TABLE Services (
 	s_type varchar(15) not null,
 	e_email varchar(50) not null
 	
-	foreign key (e_emial) references esthetician(email)
+	foreign key (e_email) references esthetician(email)
 );

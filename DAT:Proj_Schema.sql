@@ -24,3 +24,16 @@ CREATE TABLE CUSTOMER(
     );
 
 --CREATE SEQUENCE seqCID INCREMENT BY 1 START WITH 1;
+CREATE TABLE Time_Slots (
+    Fdate           date        not null,
+    Start_time      time        not null,
+    End_time        time        not null,
+    C_email         varchar(25) not null,
+    E_email         varchar(25) not null,
+    E_availability  varchar(25) not null,
+    primary key (C_email, E_email),
+    foreign key (C_email) references Customer(C_email),
+    foreign key (E_email) references Esthetician(E_email) 
+);
+
+

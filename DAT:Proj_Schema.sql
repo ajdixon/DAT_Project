@@ -44,6 +44,7 @@ CREATE TABLE Reviews (
 	descriptions 	varchar(100), 
 	date_posted	date, 
 	stars		number(5), 
+	primary key (c_email, e_email)
 	foreign key (c_email) references customer(email), 
 	foreign key (e_email) references esthetician(email)
 	
@@ -52,6 +53,6 @@ CREATE TABLE Reviews (
 CREATE TABLE Services (
 	s_type varchar(15) not null,
 	e_email varchar(50) not null
-	
+	primary key (s_type),
 	foreign key (e_email) references esthetician(email)
 );

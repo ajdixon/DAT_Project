@@ -20,7 +20,7 @@ CREATE TABLE CUSTOMER(
     CmrBdate        Date            NULL,
     CmrPassW        Char(15)        NOT NULL,
     CONSTRAINT      CUSTOMER_PK        PRIMARY KEY(CmrEmail)
-    );
+);
 
 
 

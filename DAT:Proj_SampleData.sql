@@ -55,20 +55,20 @@ INSERT INTO Reviews VALUES ('hayes.trinity@yahoo.com', 'ashleynguyen@gmail.com',
 
 
 --Services Table
-INSERT INTO Services VALUES ('hair', 'rachelj@gmail.com')
+INSERT INTO Services VALUES ('hair', 'rachelj@gmail.com');
 
-INSERT INTO Services VALUES ('nails', 'awilliams@gmail.com')
+INSERT INTO Services VALUES ('nails', 'awilliams@gmail.com');
 
-INSERT INTO Services VALUES ('hair', 'lnguyen@yahoo.com')
+INSERT INTO Services VALUES ('hair', 'lnguyen@yahoo.com');
 
-INSERT INTO Services VALUES ('lashes', 'schen@hotmail.com')
+INSERT INTO Services VALUES ('lashes', 'schen@hotmail.com');
 
-INSERT INTO Services VALUES ('facial', 'emilygarcia@gmail.com')
+INSERT INTO Services VALUES ('facial', 'emilygarcia@gmail.com');
 
-INSERT INTO Services VALUES ('facial', 'alicialee@hotmail.com')
+INSERT INTO Services VALUES ('facial', 'alicialee@hotmail.com');
 
-INSERT INTO Services VALUES ('facial', 'davidkim@yahoo.com')
+INSERT INTO Services VALUES ('facial', 'davidkim@yahoo.com');
 
-INSERT INTO Services VALUES ('hair', 'ashleynguyen@gmail.com')
+INSERT INTO Services VALUES ('hair', 'ashleynguyen@gmail.com');
 
-INSERT INTO Services VALUES ('nails', 'jessicawang@gmail.com')
+INSERT INTO Services VALUES ('nails', 'jessicawang@gmail.com');

@@ -32,8 +32,8 @@ CREATE TABLE Time_Slots (
     E_email         varchar(50) not null,
     E_availability  varchar(25) not null,
     primary key (C_email, E_email),
-    foreign key (C_email) references Customer(C_email),
-    foreign key (E_email) references Esthetician(E_email) 
+    foreign key (C_email) references Customer(CmrEmail),
+    foreign key (E_email) references Esthetician(Email) 
 );
 
 
@@ -45,8 +45,8 @@ CREATE TABLE Reviews (
 	date_posted	date, 
 	stars		number(5), 
 	primary key (c_email, e_email)
-	foreign key (c_email) references customer(email), 
-	foreign key (e_email) references esthetician(email)
+	foreign key (c_email) references customer(CmrEmail), 
+	foreign key (e_email) references esthetician(Email)
 	
 );
 
@@ -54,5 +54,5 @@ CREATE TABLE Services (
 	s_type varchar(15) not null,
 	e_email varchar(50) not null
 	primary key (s_type),
-	foreign key (e_email) references esthetician(email)
+	foreign key (e_email) references esthetician(Email)
 );

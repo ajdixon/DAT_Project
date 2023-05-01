@@ -12,7 +12,6 @@ CREATE TABLE Esthetician(
 );
 
 DROP TABLE CUSTOMER CASCADE CONSTRAINTS;
---DROP SEQUENCE seqCID;
 
 CREATE TABLE CUSTOMER(
     CmrEmail        Char(50)        NOT NULL,
@@ -23,7 +22,7 @@ CREATE TABLE CUSTOMER(
     CONSTRAINT      CUSTOMER_PK        PRIMARY KEY(CmrEmail)
     );
 
---CREATE SEQUENCE seqCID INCREMENT BY 1 START WITH 1;
+
 
 CREATE TABLE Time_Slots (
     Fdate           date        not null,

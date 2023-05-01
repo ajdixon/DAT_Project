@@ -14,7 +14,7 @@ CREATE TABLE Esthetician(
 DROP TABLE CUSTOMER CASCADE CONSTRAINTS;
 
 CREATE TABLE CUSTOMER(
-    CmrEmail        Char(50)        NOT NULL,
+    CmrEmail        VarChar(50)        NOT NULL,
     CmrFname        Char(50)        NOT NULL,
     CmrLname        Char(50)        NOT NULL,
     CmrBdate        Date            NULL,

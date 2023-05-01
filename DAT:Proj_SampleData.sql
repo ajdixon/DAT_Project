@@ -42,3 +42,33 @@ VALUES ('Ashley', 'Brown', '05-Apr-1996', 'ashleynguyen@gmail.com', 'securepassw
 
 INSERT INTO Esthetician (FName, LName, DOB, Email, Password, Description, Location)
 VALUES ('Jessica', 'Wang', '17-Oct-1993', 'jessicawang@gmail.com', 'p@ssword123', 'I specialize in makeup and bridal services', '567 Pine St, San Francisco, CA 94108');
+
+
+--Reviews Table
+INSERT INTO Reviews VALUES ('christian@gmail.com', 'rachelj@gmail.com', 'Christian', 'Liked how my hair turned out, but it took a long time', 4, 01-JAN-2023);
+
+INSERT INTO Reviews VALUES ('jo.mcdonald@gmail.com', 'awilliams@gmail.com', 'Joanne', 'Best nails I have ever gotten. The gel looked great and it lasted weeks!', 5, 11-MAR-2023);
+
+INSERT INTO Reviews VALUES ('moreno@villanova.edu', 'ashleynguyen@gmail.com', 'Sofia', 'I asked for lighter highlights and a trim and I got what I wanted. She clearly has experience but I did not like how disorganzied she was.', 3.5, 11-MAR-2023);
+
+INSERT INTO Reviews VALUES ('hayes.trinity@yahoo.com', 'ashleynguyen@gmail.com', 'Trinity', 'My blond highlights had faded out so I asked to get them redone. My hair turned out yellow. Would not recommend.', 1, 15-FEB-2023);
+
+
+--Services Table
+INSERT INTO Services VALUES ('hair', 'rachelj@gmail.com')
+
+INSERT INTO Services VALUES ('nails', 'awilliams@gmail.com')
+
+INSERT INTO Services VALUES ('hair', 'lnguyen@yahoo.com')
+
+INSERT INTO Services VALUES ('lashes', 'schen@hotmail.com')
+
+INSERT INTO Services VALUES ('facial', 'emilygarcia@gmail.com')
+
+INSERT INTO Services VALUES ('facial', 'alicialee@hotmail.com')
+
+INSERT INTO Services VALUES ('facial', 'davidkim@yahoo.com')
+
+INSERT INTO Services VALUES ('hair', 'ashleynguyen@gmail.com')
+
+INSERT INTO Services VALUES ('nails', 'jessicawang@gmail.com')

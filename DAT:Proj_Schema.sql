@@ -28,7 +28,7 @@ CREATE TABLE Time_Slots (
     Fdate           date        not null,
     Start_time      time        not null,
     End_time        time        not null,
-    C_email         varchar(50) not null,
+    C_email         varchar(50) null,
     E_email         varchar(50) not null,
     E_availability  varchar(25) not null,
     primary key (C_email, E_email),

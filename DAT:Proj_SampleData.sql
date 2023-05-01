@@ -45,13 +45,13 @@ VALUES ('Jessica', 'Wang', '17-Oct-1993', 'jessicawang@gmail.com', 'p@ssword123'
 
 
 --Reviews Table
-INSERT INTO Reviews VALUES ('christian@gmail.com', 'rachelj@gmail.com', 'Christian', 'Liked how my hair turned out, but it took a long time', 4, 01-JAN-2023);
+INSERT INTO Reviews VALUES ('christian@gmail.com', 'rachelj@gmail.com', 'Christian', 'Liked how my hair turned out, but it took a long time', 4, '01-JAN-2023');
 
-INSERT INTO Reviews VALUES ('jo.mcdonald@gmail.com', 'awilliams@gmail.com', 'Joanne', 'Best nails I have ever gotten. The gel looked great and it lasted weeks!', 5, 11-MAR-2023);
+INSERT INTO Reviews VALUES ('jo.mcdonald@gmail.com', 'awilliams@gmail.com', 'Joanne', 'Best nails I have ever gotten. The gel looked great and it lasted weeks!', 5, '11-MAR-2023');
 
-INSERT INTO Reviews VALUES ('moreno@villanova.edu', 'ashleynguyen@gmail.com', 'Sofia', 'I asked for lighter highlights and a trim and I got what I wanted. She clearly has experience but I did not like how disorganzied she was.', 3.5, 11-MAR-2023);
+INSERT INTO Reviews VALUES ('moreno@villanova.edu', 'ashleynguyen@gmail.com', 'Sofia', 'I asked for lighter highlights and a trim and I got what I wanted. She clearly has experience but I did not like how disorganzied she was.', 3.5, '11-MAR-2023');
 
-INSERT INTO Reviews VALUES ('hayes.trinity@yahoo.com', 'ashleynguyen@gmail.com', 'Trinity', 'My blond highlights had faded out so I asked to get them redone. My hair turned out yellow. Would not recommend.', 1, 15-FEB-2023);
+INSERT INTO Reviews VALUES ('hayes.trinity@yahoo.com', 'ashleynguyen@gmail.com', 'Trinity', 'My blond highlights had faded out so I asked to get them redone. My hair turned out yellow. Would not recommend.', 1, '15-FEB-2023');
 
 
 --Services Table

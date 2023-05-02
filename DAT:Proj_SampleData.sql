@@ -74,21 +74,21 @@ INSERT INTO Services VALUES ('hair', 'ashleynguyen@gmail.com');
 INSERT INTO Services VALUES ('nails', 'jessicawang@gmail.com');
 
 --Time_slots sample data
-INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email, E_availability)
-VALUES('01-JAN-2023','11:00:23', '12:15:07','christian@gmail.com','rachelj@gmail.com', 'rachelj@gmail.com');
-INSERT INTO TIme_slots(Fdate, Start_time, End_time, C_email, E_email, E_availability)
-VALUES('03-MAR-2023','12:00:10', '13:06:66','jo.mcdonald@gmail.com','awilliams@gmail.com', 'awilliams@gmail.com');
-INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email, E_availability)
-VALUES('09-MAR-2023','11:30:09', '12:15:07',null,'lnguyen@yahoo.com', 'lnguyen@yahoo.com');
-INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email, E_availability)
-VALUES('13-FEB-2023','10:00:24', '11:40:07',null,'schen@hotmail.com', 'schen@hotmail.com');
-INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email, E_availability)
-VALUES('11-MAR-2023','10:00:06', '12:03:07','moreno@villanova.edu','emilygarcia@gmail.com', 'emilygarcia@gmail.com');
-INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email, E_availability)
-VALUES('04-MAR-2023','11:15:06', '14:20:07','hayes.trinity@yahoo.com','alicialee@hotmail.com', 'alicialee@hotmail.com');
-INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email, E_availability)
-VALUES('21-JAN-2023','13:06:06', '14:00:04',null,'davidkim@yahoo.com', 'davidkim@yahoo.com');
-INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email, E_availability)
-VALUES('25-JAN-2023','11:02:03', '12:04:07',null,'ashleynguyen@gmail.com', 'ashleynguyen@gmail.com');
-INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email, E_availability)
-VALUES('17-JAN-2023','14:04:06', '15:03:07',null,'jessicawang@gmail.com', 'jessicawang@gmail.com');
+INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email)
+VALUES('01-JAN-2023','11:00:23', '12:15:07','christian@gmail.com','rachelj@gmail.com');
+INSERT INTO TIme_slots(Fdate, Start_time, End_time, C_email, E_email)
+VALUES('03-MAR-2023','12:00:10', '13:06:66','jo.mcdonald@gmail.com','awilliams@gmail.com');
+INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email)
+VALUES('09-MAR-2023','11:30:09', '12:15:07',null,'lnguyen@yahoo.com');
+INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email)
+VALUES('13-FEB-2023','10:00:24', '11:40:07',null,'schen@hotmail.com');
+INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email)
+VALUES('11-MAR-2023','10:00:06', '12:03:07','moreno@villanova.edu','emilygarcia@gmail.com');
+INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email)
+VALUES('04-MAR-2023','11:15:06', '14:20:07','hayes.trinity@yahoo.com','alicialee@hotmail.com');
+INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email)
+VALUES('21-JAN-2023','13:06:06', '14:00:04',null,'davidkim@yahoo.com');
+INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email)
+VALUES('25-JAN-2023','11:02:03', '12:04:07',null,'ashleynguyen@gmail.com');
+INSERT INTO Time_slots(Fdate, Start_time, End_time, C_email, E_email)
+VALUES('17-JAN-2023','14:04:06', '15:03:07',null,'jessicawang@gmail.com');

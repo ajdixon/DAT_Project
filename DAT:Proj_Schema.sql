@@ -30,7 +30,6 @@ CREATE TABLE Time_Slots (
     End_time        time        not null,
     C_email         varchar(50) null,
     E_email         varchar(50) not null,
-    E_availability  varchar(25) not null,
     primary key (C_email, E_email),
     foreign key (C_email) references Customer(CmrEmail),
     foreign key (E_email) references Esthetician(Email) 

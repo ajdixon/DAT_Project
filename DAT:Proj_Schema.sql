@@ -22,7 +22,7 @@ CREATE TABLE ESTHETICIAN(
 	DOB			Date			NOT NULL,
 	Email			VarChar(50)		NULL,
    	Password        	Char(50)		NOT NULL,
-    	Description     	Char(1000)		NOT NULL,
+    	Description     	Char(500)		NOT NULL,
     	Location        	Char(50)		NOT NULL,
     EService        VarChar(50)     NOT NULL,
 	CONSTRAINT		Esthet_PK		PRIMARY KEY(Email, EService)

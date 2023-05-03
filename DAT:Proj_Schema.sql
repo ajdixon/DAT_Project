@@ -26,7 +26,7 @@ CREATE TABLE ESTHETICIAN(
    	Password        	Char(50)		NOT NULL,
     	Description     	Char(1000)		NOT NULL,
     	Location        	Char(50)		NOT NULL,
-    EService        VarChar(50)     NOT NULL,
+    	EService        VarChar(50)     NOT NULL,
 	CONSTRAINT		Esthet_PK		PRIMARY KEY(Email, EService)
     
 );
@@ -63,9 +63,9 @@ CREATE TABLE Reviews (
 	date_posted	   Date, 
 	stars		number(5),
     ApptType VarChar(50)     not null,
+    primary key (C_email, E_email, ApptType),
 	foreign key (c_email) references customer(CmrEmail), 
 	foreign key (e_email, ApptType) references esthetician(Email, EService)
 );
-
 
 

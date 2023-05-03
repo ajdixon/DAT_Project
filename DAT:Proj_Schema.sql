@@ -1,4 +1,6 @@
-
+--Madison Day
+--Group Project
+--schema
 
 --DROP TABLE CUSTOMER CASCADE CONSTRAINTS;
 
@@ -22,7 +24,7 @@ CREATE TABLE ESTHETICIAN(
 	DOB			Date			NOT NULL,
 	Email			VarChar(50)		NULL,
    	Password        	Char(50)		NOT NULL,
-    	Description     	Char(500)		NOT NULL,
+    	Description     	Char(1000)		NOT NULL,
     	Location        	Char(50)		NOT NULL,
     EService        VarChar(50)     NOT NULL,
 	CONSTRAINT		Esthet_PK		PRIMARY KEY(Email, EService)
@@ -43,7 +45,7 @@ CREATE TABLE Time_Slots (
     C_email         VarChar(50)    not null,
     E_email         VarChar(50) not null,
     ApptType        VarChar(50)     not null,
-    primary key (C_email, E_email, Fdate, Start_time),
+    primary key (C_email, E_email, Fdate, Start_time, ApptType),
     foreign key (C_email) references Customer(CmrEmail),
     foreign key (E_email, ApptType) references Esthetician(Email, EService)
     

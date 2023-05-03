@@ -1,4 +1,5 @@
 
+
 --DROP TABLE CUSTOMER CASCADE CONSTRAINTS;
 
 
@@ -23,7 +24,9 @@ CREATE TABLE ESTHETICIAN(
    	Password        	Char(50)		NOT NULL,
     	Description     	Char(1000)		NOT NULL,
     	Location        	Char(50)		NOT NULL,
-	CONSTRAINT		Esthet_PK		PRIMARY KEY(Email)
+    EService        VarChar(50)     NOT NULL,
+	CONSTRAINT		Esthet_PK		PRIMARY KEY(Email, EService)
+    
 );
 
 
@@ -39,9 +42,11 @@ CREATE TABLE Time_Slots (
     End_time        Char(15)        not null,
     C_email         VarChar(50)    not null,
     E_email         VarChar(50) not null,
-    primary key (C_email, E_email),
+    ApptType        VarChar(50)     not null,
+    primary key (C_email, E_email, Fdate, Start_time),
     foreign key (C_email) references Customer(CmrEmail),
-    foreign key (E_email) references Esthetician(Email) 
+    foreign key (E_email, ApptType) references Esthetician(Email, EService)
+    
 );
 
 
@@ -54,18 +59,11 @@ CREATE TABLE Reviews (
 	r_name		VarChar(50), 
 	descriptions 	VarChar(500), 
 	date_posted	   Date, 
-	stars		number(5), 
+	stars		number(5),
+    ApptType VarChar(50)     not null,
 	foreign key (c_email) references customer(CmrEmail), 
-	foreign key (e_email) references esthetician(Email)
+	foreign key (e_email, ApptType) references esthetician(Email, EService)
 );
 
 
 
---DROP TABLE Services CASCADE CONSTRAINTS;
-
-CREATE TABLE Services(
- 	s_type VarChar(15) not null,
- 	e_email VarChar(50) not null,
- 	primary key(s_type, e_email),
- 	foreign key (e_email) references esthetician(Email)
- );

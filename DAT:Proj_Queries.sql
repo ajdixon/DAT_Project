@@ -34,14 +34,6 @@ where email = 'rachelj@gmail.com';
 
 
 
-
---Estheticians are able to view all of their reviews
-select * from reviews
-where e_email = 'rachelj@gmail.com';
-
-
-
-
 --A customer can delete an appointment they previously scheduled 
 delete from Time_slots
 where fdate = '18-MAY-2023' and Start_time = '11:30:00' 
